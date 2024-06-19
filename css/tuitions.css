@@ -1,0 +1,312 @@
+* {
+    font-family: tahoma;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background: rgb(249, 249, 249);
+	background-image: url(../img/BG.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom 20% ;
+	font-family: tahoma;
+}
+
+header{
+	background-image: url(../img/BG2.png);
+	background-size: auto;
+	background-color: #87ceeb;
+	background-position: center;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 175px;
+	z-index: 1;
+}
+
+header h1{
+	color: #4682B4;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px black;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 200%;
+	overflow: hidden;
+}
+
+header h2{
+	color: #4682B4;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px black;
+	margin-left: 125px;
+	width: 200%;
+	overflow: hidden;
+}
+
+.navbar-content {
+	overflow: hidden;
+	white-space: nowrap;
+	scroll-behavior: smooth;
+}
+  
+.navbar-content > * {
+	display: inline-block;
+}
+
+.scroll-button {
+	background-color: transparent;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	font-size: 20px;
+	width: 50px;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+
+.main_menu{
+	margin: 0 auto;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 175px;
+	display: flex;
+	background-color: #00BFFF;
+	z-index: 1;
+}
+
+.main_menu ul{
+	margin: 0 auto;
+	list-style: none;
+	background-color: #00BFFF;
+	height: 50px;
+	text-align: center;
+	padding-right: 50px;
+}
+
+.main_menu ul li{
+	display: inline-block;
+}
+
+.main_menu ul li a{
+	margin: 30px;
+	text-align: center top 100px;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px #000000;
+}
+
+.main_menu ul li a:hover{
+	color: cyan;
+}
+
+#tuitions{
+	color: cyan;
+}
+
+.menus{
+	color: white;
+}
+
+.description{
+	position: absolute;
+	top: 275px;
+	width: 100%;
+}
+
+.option1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.full1{
+	text-align: center;
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+
+table, td, th{
+	border: 3px solid black;
+	border-collapse: collapse;
+	border-color: black;
+	text-transform: uppercase;
+}
+
+td{
+	text-align: center;
+}
+
+table{
+	width: 85%;
+	margin-left: 7.5%;
+	font-size: large;
+}
+
+.table1{
+	margin-top: 50px;
+}
+
+.color1{
+	color: purple;
+}
+
+.color2{
+	color: red;
+}
+
+.color3{
+	color: green;
+}
+
+.blank1{
+	background-color: #C0C0C0;
+}
+
+.color4{
+	color: brown;
+}
+
+.table2{
+	margin-top: 70px;
+}
+
+.monthly1{
+	text-align: center;
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+
+.table3{
+	margin-top: 50px;
+}
+
+.reg1{
+	color: #C5B358;
+	background-color: #2F4F4F;
+}
+
+.table4{
+	margin-top: 50px;
+}
+
+.white{
+	color: white;
+}
+
+.semestral1{
+	text-align: center;
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+
+.color5{
+	color: #D2B48C;
+	background-color: #8B4513;
+}
+
+.color6{
+	color: #D2B48C;
+	background-color: #996515;
+}
+
+.color7{
+	background-color: pink;
+}
+
+.table5{
+	margin-top: 50px;
+}
+
+.option2{
+	text-align: center;
+	margin-top: 100px;
+	text-transform: uppercase;
+}
+
+.full2{
+	text-align: center;
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+
+.table6{
+	margin-top: 50px;
+}
+
+.table7{
+	margin-top: 70px;
+}
+
+.monthly2{
+	text-align: center;
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+
+.table8{
+	margin-top: 50px;
+}
+
+.gold{
+	background-color: #C5B358;
+	color: #F8F8FF;
+}
+
+.table9{
+	margin-top: 70px;
+}
+
+.semestral2{
+	text-align: center;
+	margin-top: 5%;
+	text-transform: uppercase;
+}
+
+.blue{
+	background-color: #4682B4;
+	color: yellow;
+}
+
+.lightblue{
+	background-color: #ADD8E6;
+	
+}
+
+.table10{
+	margin-top: 50px;
+}
+
+.table11{
+	margin-top: 70px;
+}
+
+.color8{
+	background-color: #00008B;
+	color: yellow;
+}
+
+footer{
+	margin-top: 50px;
+	width: 100%;
+	background-color: #00BFFF;
+	overflow: hidden;
+}
+
+.copyright{
+	text-align: center;
+	width: 100%;
+	text-shadow: 3px 3px 3px black;
+	color: white;
+}

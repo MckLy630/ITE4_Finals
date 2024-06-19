@@ -1,0 +1,293 @@
+* {
+    font-family: tahoma;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background: #00FFFF;
+	font-family: tahoma;
+	resize: both;
+	overflow: auto;
+}
+
+header{
+	background-image: url("../img/BG2.png");
+	background-size: auto;
+	background-color: #87ceeb;
+	background-position: center;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 175px;
+	z-index: 1;
+}
+
+header h1{
+	color: #4682B4;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px black;
+	font-size: 40px;
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 200%;
+	overflow: hidden;
+}
+
+header h2{
+	color: #4682B4;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px black;
+	font-size: 30px;
+	margin-left: 125px;
+	width: 200%;
+	overflow: hidden;
+}
+
+.navbar-content {
+	overflow: hidden;
+	white-space: nowrap;
+	scroll-behavior: smooth;
+}
+  
+.navbar-content > * {
+	display: inline-block;
+}
+
+.scroll-button {
+	background-color: transparent;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	font-size: 20px;
+	width: 50px;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+
+.main_menu{
+	margin: 0 auto;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 175px;
+	display: flex;
+	background-color: #00BFFF;
+}
+
+.main_menu ul{
+	margin: 0 auto;
+	list-style: none;
+	background-color: #00BFFF;
+	height: 50px;
+	text-align: center;
+	padding-right: 50px;
+}
+
+.main_menu ul li{
+	display: inline-block;
+}
+
+.main_menu ul li a{
+	margin: 30px;
+	text-align: center top 100px;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px #000000;
+}
+
+.main_menu ul li a:hover{
+	color: cyan;
+}
+
+.home{
+	color: cyan;
+}
+
+.menus{
+	color: white;
+}
+
+.slider{
+	padding-top: 220px;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.slides{
+	width: 500%;
+	height: 768px;
+	display: flex;
+}
+
+.slides input{
+	display: none;
+	visibility: hidden;
+}
+
+.slide{
+	width: 20%;
+	transition: 2s;
+}
+
+.slide img{
+	width: 1920px;
+	height: 768px;
+}
+
+#radio1:checked ~ .first{
+	margin-left: 0%;
+}
+
+#radio2:checked ~ .first{
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+	margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+	margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+	margin-left: -80%;
+}
+
+#radio6:checked ~ .first{
+	margin-left: -100%;
+}
+
+.navigation-auto div{
+	border: 2px solid white;
+	padding: 5px;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+	margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+	background: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+	background: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+	background: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+	background: white;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+	background: white;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+	background: white;
+}
+
+.description{
+	position: absolute;
+	top: 1000px;
+	width: 100%;
+	text-align: center;
+	z-index: -1;
+}
+
+.description h1{
+	font-size: 70px;
+	margin-top: 50px;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+}
+
+.description h2{
+	font-size: 35px;
+	color: white;
+	text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+.description h3{
+	color: white;
+	text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.map{
+	position: absolute;
+	top: 1400px;
+	width: 100%;
+	z-index: -1;
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	top: 1900px;
+	background-color: #00BFFF;
+	overflow: hidden;
+}
+
+.contacts{
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px black;
+	color: white;
+}
+
+.address{
+	margin-left: 43%;
+	text-shadow: 1.5px 1.5px 1.5px black;
+	color: white;
+}
+
+.email{
+	margin-left: 43%;
+	text-shadow: 1.5px 1.5px 1.5px black;
+	color: white;
+}
+
+.phone{
+	margin-left: 43%;
+	text-shadow: 1.5px 1.5px 1.5px black;
+	color: white;
+}
+
+footer ul{
+	text-align: center;
+	width: 100%
+}
+
+footer ul li{
+	display: inline-block;
+}
+
+footer ul li a{
+	position: relative;
+	left: -30px;
+}
+
+.copyright{
+	text-align: center;
+	width: 100%;
+	text-shadow: 3px 3px 3px black;
+	color: white;
+}
